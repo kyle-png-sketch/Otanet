@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+    color: #ffffff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg\ main.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+
+  header {
+    background: linear-gradient(90deg, #f60dd79b, #b566ff97);
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   
+  }
+
+   nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    background-color: #8541ba;
+    border: #414FBA;
+    border-radius: 50px;
+    padding: 1rem 1rem;
+  
+ 
+  }
+
+  .download {
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    text-align: center;
+    width: 1600px;
+    height: 2000x;
+    background:linear-gradient(90deg, #f60dd78f, #b566ff9b);
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+
+  }
+
+  .download h2{
+    font-size: 4rem;
+    color: #ffffff;
+  }
+
+  .download p{
+    font-size: 3rem;
+  }
+
+  .nav-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+ 
+
+}
+.nav-icons div:hover {
+  background-color: rgb(179, 0, 255);
+ 
+
+}
+.nav-icons div {
+  background: rgb(255, 255, 255);
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+a{
+  color: #f60dd7;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #f60dd79b, #b566ff97);
+  color: white;
+}
+
