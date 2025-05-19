@@ -97,11 +97,12 @@ header {
         .feed {
       max-width: 1080px;
       margin: 30px auto;
-      
       border-radius: 10px;
-   
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
+.feed p{
+color: white;
+}
         
 
         .post {
