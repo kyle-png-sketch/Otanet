@@ -25,6 +25,7 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            position: sticky;
             top: 0;
             z-index: 1000;
             background-color: #6e0080;
@@ -56,6 +57,7 @@ header {
             padding: 10px;
             margin: 10px;
             border-radius: 10px;
+            position: sticky;
             top: 70px;
             z-index: 999; 
             background-color: #6e0080; 
