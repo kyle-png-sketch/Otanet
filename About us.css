@@ -27,7 +27,7 @@
     flex-direction: column;
     align-items: center;
     margin: 40px auto;
-
+    animation: float 3s ease-in-out infinite;
 
   }
   .container:hover {
@@ -54,6 +54,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    animation: float 3s ease-in-out infinite;
   }
   
   
@@ -144,4 +145,13 @@ a{
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
 }
