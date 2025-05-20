@@ -22,16 +22,23 @@
   <section class="status">
     <input type="text" placeholder="What's on your mind, user?" />
     <div class="options">
-      <button>📹 Live</button>
-      <button>📷 Photo/Video</button>
-      <button>😊 Feeling/Activity</button>
+      <input type="file" id="fileUpload" accept="image/*,video/*" style="display: none;" multiple>
+      <button onclick="document.getElementById('fileUpload').click()" class="photo-btn">📹 Live</button>
+      <input type="file" id="fileUpload" accept="image/*,video/*" style="display: none;" multiple>
+      <button onclick="document.getElementById('fileUpload').click()" class="photo-btn">📷 Photo/Video</button>
+      <input type="file" id="fileUpload" accept="image/*,video/*" style="display: none;" multiple>
+      <button onclick="document.getElementById('fileUpload').click()" class="photo-btn">😊 Feeling/Activity</button>
     </div>
   </section>
 
   <section class="container">
     <div class="story-section">
-    <div class="story">Create Story for Otanet</div>
-    <div class="story">ANIME THEME</div>
+    <div class="story">
+      <input type="file" id="fileUpload" accept="image/*,video/*" style="display: none;" multiple>
+      <button onclick="document.getElementById('fileUpload').click()" class="photo-btn">Create Story for Otanet</button></div>
+    <div class="story">
+      <input type="file" id="fileUpload" accept="image/*,video/*" style="display: none;" multiple>
+      <button onclick="document.getElementById('fileUpload').click()" class="photo-btn">ANIME THEME</button></div>
     </div>
   </section>
 
