@@ -103,6 +103,10 @@ header {
 .feed p{
 color: white;
 }
+
+.feed strong{
+color: white;
+}
         
 
         .post {
