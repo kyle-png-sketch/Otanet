@@ -44,6 +44,9 @@ header {
             cursor: pointer;
             color: white;
         }
+li a{
+colo: white;
+}
 
         .status {
             background: linear-gradient(90deg, #f60dd79b, #b566ff97);
