@@ -160,3 +160,38 @@ color: white;
       overflow-x: auto;
       margin-bottom: 20px;
     }
+.side-box {
+  position: fixed;
+  top: 200px;
+  width: 410px;
+  height: 800px;
+  z-index: 999;
+  animation: float 3s ease-in-out infinite;
+  padding: 10px;
+  background: linear-gradient(90deg, #f60dd79b, #b566ff97);
+}
+
+.left-box {
+  left: 10px;
+}
+
+.right-box {
+  right: 10px;
+}
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .side-box {
+    display: none;
+  }
+}
